@@ -1,0 +1,140 @@
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+img, table {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1f2a44;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 26px;
+    border-left: 6px solid #3a6cf4;
+    padding-left: 12px;
+    color: #283e75;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #444;
+}
+
+img {
+    width: 100%;
+    max-width: 420px;
+    display: block;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+table {
+    width: 100%;
+    max-width: 550px;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #3a6cf4;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    background: #1f2a44;
+    padding: 14px 30px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.nav-brand {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.nav-links li a:hover {
+    color: #3a6cf4;
+}
