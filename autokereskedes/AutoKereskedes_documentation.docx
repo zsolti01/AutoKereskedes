@@ -1,0 +1,32 @@
+AutoKereskedes — rövid dokumentáció
+
+1. Mire való
+- Front-end, statikus autókereskedés bemutató oldal (HTML + CSS).
+- Autólisták, képek, rövid műszaki adatok és kapcsolati információk megjelenítése.
+
+2. Mi található a repóban (várhatóan)
+- index.html (főoldal)
+- további .html oldalak (pl. about, contact) — ha vannak
+- css/ mappa (styles.css)
+- assets/images mappa (képek)
+
+3. Hogyan futtasd lokálisan
+- Dupla kattintás az index.html-re, vagy
+- Python szerver: python -m http.server 8000 → http://localhost:8000
+- VSCode Live Server vagy egyszerű http-server is jó.
+
+4. Gyors teendők (ha szerkeszteni akarod)
+- Szöveg módosítása: HTML fájlok szerkesztése.
+- Stílus módosítása: css/styles.css szerkesztése.
+- Képek: assets/images mappába másolás és <img> src frissítése.
+
+5. Egyszerű fejlesztési ötletek (prioritás szerint)
+- 1. JavaScript alapú keresés/szűrés (márka, ár, évjárat).
+- 2. cars.json példa adatokhoz (dinamikus betöltés).
+- 3. Meta viewport + alap SEO meta tagek hozzáadása.
+- 4. Képek optimalizálása (WebP, tömörítés).
+
+6. Haladó javaslatok
+- Admin felület és backend (Node/Express vagy headless CMS).
+- Felhasználói fiókok, kedvencek, foglalás/tesztvezetés űrlap.
+- Google Maps integráció, értékelések, többnyelvűség.
